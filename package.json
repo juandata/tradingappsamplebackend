@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "client": "cd ../client && npm start",
+    "startDev": "node app.js",
     "server": "nodemon app.js",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
